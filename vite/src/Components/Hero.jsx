@@ -3,7 +3,7 @@ import "./Hero.css"
 function Hero({ player }) {
     return (
         <div className="hero">
-            <h1>{player}</h1>
+            <h1>{player} </h1>
         </div>
     )
 }
