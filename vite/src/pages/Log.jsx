@@ -1,10 +1,12 @@
 import Navbar from '../Components/NavBar'
+import Hero from '../Components/Hero'
 
 function Log() {
     return (
         <>
         <Navbar />
-        <h1>Log!</h1>
+        <Hero player="log page" />
+        
         </>
     )
 }

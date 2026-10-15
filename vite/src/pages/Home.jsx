@@ -1,10 +1,15 @@
 import NavBar from '../Components/NavBar'
+import Hero from '../Components/Hero'
+
 
 function Home() {
+    const name = "John Doe";
     return (
        <>
         <NavBar />
-        <h1>Home!</h1>
+        <Hero player="home page" />
+
+        <h3>{name}</h3>
        </>
     )
 }

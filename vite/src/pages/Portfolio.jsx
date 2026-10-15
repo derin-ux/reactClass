@@ -1,10 +1,11 @@
 import NavBar from '../Components/NavBar'
+import Hero from '../Components/Hero'
 
 function Portfolio() {
     return (
         <>
             <NavBar />
-            <h1>Portfolio!</h1>
+            <Hero player="portfolio page" />
         </>
 
     )

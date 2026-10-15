@@ -1,10 +1,12 @@
 import NavBar from '../Components/NavBar'
+import Hero from '../Components/Hero'
 
 function Info() {
     return (
         <>
             <NavBar />
-            <h1>Info!</h1>
+            <Hero player="info page" />
+           
         </>
     )
 }
